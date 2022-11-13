@@ -1,0 +1,30 @@
+.logo {
+    display: block;
+      
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    color: var(--accent-color);
+    
+    & .black {
+    color: #000000;
+    transition-property: color;
+    transition-duration: var(--animation-time);
+    transition-timing-function: var(--animation-timing-function);
+    }
+
+    & .white {
+    color: var(--primary-background-color);
+    transition-property: color;
+    transition-duration: var(--animation-time);
+    transition-timing-function: var(--animation-timing-function); 
+    }
+
+    & .black:hover,
+    & .black:focus,
+    & .white:hover,
+    & .white:focus, {
+        color: var(--accent-color);
+        }
+}
