@@ -1,0 +1,41 @@
+.activity {
+    @extend %section;
+    @extend %container;
+    background: var(--primary-background-color);
+}
+
+.activity-title {
+    margin-bottom: 50px;
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.activity-list {
+    @extend %list;
+    display: flex;
+    justify-content: space-between;
+
+    & .item {
+    position: relative;
+    }
+}
+
+.activity-description {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    top: 224px;
+    padding-top: 27px;
+
+    font-weight: 700;
+    line-height: calc(16/14);
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--primary-background-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
