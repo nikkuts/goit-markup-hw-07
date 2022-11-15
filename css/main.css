@@ -27,15 +27,9 @@
   margin: 0;
 }
 
-.portfolio, .clients, .team, .activity, .benefits {
+.portfolio, .clients, .team, .activity {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.footer-box, .portfolio, .clients, .team, .activity, .benefits, .hero, .main-nav {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 html {
@@ -76,6 +70,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {

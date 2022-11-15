@@ -1,6 +1,5 @@
 .clients {
     @extend %section;
-    @extend %container;
     background: var(--primary-background-color);
 }
 
