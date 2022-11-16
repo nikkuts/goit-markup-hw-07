@@ -3,7 +3,7 @@
     background: var(--primary-background-color);
 }
 
-.activity-title {
+.activity__title {
     margin-bottom: 50px;
     
     font-weight: 700;
@@ -23,7 +23,7 @@
     }
 }
 
-.activity-description {
+.activity-list__description {
     position: absolute;
     width: 370px;
     height: 70px;

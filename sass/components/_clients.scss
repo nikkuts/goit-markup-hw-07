@@ -3,7 +3,7 @@
     background: var(--primary-background-color);
 }
 
-.clients-title {
+.clients__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -23,7 +23,7 @@
     }
 }
 
-.clients-link {
+.clients-list__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -42,7 +42,7 @@
     }
 }
 
-.clients-svg {
+.clients-list__svg {
     fill: currentColor;
 }
 

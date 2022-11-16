@@ -12,7 +12,7 @@
     }
 }
 
-.benefits-box {
+.benefits-list__box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@
     border-radius: 4px;
 }
 
-.benefits-title {
+.benefits-list__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -32,7 +32,7 @@
     color: var(--title-text-color);
 }
 
-.benefits-text {
+.benefits-list__text {
     line-height: 171%;
     letter-spacing: 0.03em;
 }

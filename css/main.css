@@ -219,7 +219,7 @@ body {
   background-color: #2F303A;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -233,7 +233,7 @@ body {
   color: var(--primary-background-color);
 }
 
-.hero-btn {
+.hero__btn {
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
@@ -257,7 +257,7 @@ body {
   border-radius: 4px;
   transition: background-color var(--animation-time) var(--animation-timing-function);
 }
-.hero-btn:hover, .hero-btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: #188CE8;
 }
 
@@ -273,7 +273,7 @@ body {
   margin-right: 30px;
 }
 
-.benefits-box {
+.benefits-list__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,7 +284,7 @@ body {
   border-radius: 4px;
 }
 
-.benefits-title {
+.benefits-list__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -293,7 +293,7 @@ body {
   color: var(--title-text-color);
 }
 
-.benefits-text {
+.benefits-list__text {
   line-height: 171%;
   letter-spacing: 0.03em;
 }
@@ -302,7 +302,7 @@ body {
   background: var(--primary-background-color);
 }
 
-.activity-title {
+.activity__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -319,7 +319,7 @@ body {
   position: relative;
 }
 
-.activity-description {
+.activity-list__description {
   position: absolute;
   width: 370px;
   height: 70px;
@@ -337,7 +337,7 @@ body {
   background-color: #F5F4FA;
 }
 
-.team-title {
+.team__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -350,7 +350,8 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.team-list .description {
+
+.team-list__description {
   padding-top: 30px;
   padding-bottom: 30px;
   background: var(--primary-background-color);
@@ -359,7 +360,7 @@ body {
   border-top: none;
 }
 
-.team-list-title {
+.team-list__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -368,7 +369,7 @@ body {
   color: var(--title-text-color);
 }
 
-.team-list-text {
+.team-list__text {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.1875;
@@ -381,7 +382,7 @@ body {
   gap: 10px;
 }
 
-.socialmedia-link {
+.socialmedia-list__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -392,12 +393,12 @@ body {
   border-radius: 50%;
   transition: color var(--animation-time) var(--animation-timing-function), background-color var(--animation-time) var(--animation-timing-function);
 }
-.socialmedia-link:hover, .socialmedia-link:focus {
+.socialmedia-list__link:hover, .socialmedia-list__link:focus {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
 }
 
-.socialmedia-svg {
+.socialmedia-list__svg {
   fill: currentColor;
 }
 
@@ -405,7 +406,7 @@ body {
   background: var(--primary-background-color);
 }
 
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -423,7 +424,7 @@ body {
   flex-basis: calc((100% - 150px) / 6);
 }
 
-.clients-link {
+.clients-list__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -434,12 +435,12 @@ body {
   border-radius: 4px;
   transition: color var(--animation-time) var(--animation-timing-function), border var(--animation-time) var(--animation-timing-function);
 }
-.clients-link:hover, .clients-link:focus {
+.clients-list__link:hover, .clients-list__link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
-.clients-svg {
+.clients-list__svg {
   fill: currentColor;
 }
 
