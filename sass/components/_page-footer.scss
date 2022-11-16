@@ -52,21 +52,10 @@
     color: #FFFFFF;
 }
 
-.socialmedia-list {
-    @extend %list;
-}
-
-.socialmedia-link.group {
+.socialmedia-list__link--group {
     color: var(--primary-background-color);
     background-color: rgba(255, 255, 255, 0.1);
-    transition-property: background-color;
-    transition-duration: var(--animation-time);
-    transition-timing-function: var(--animation-timing-function);
-}
-
-.socialmedia-link:hover,
-.socialmedia-link:focus {
-    background-color: var(--accent-color);
+    
 }
 
 .form-email {
